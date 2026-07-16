@@ -7,11 +7,11 @@ export function Layout() {
   return (
     <div>
       <header className={styles.user}>
-        <p>Bem-vindo</p>
+        <p>Welcome!</p>
       </header>
       <Outlet />
       <footer>
-        <span>Todos os direitos reservados</span>
+        <span>All rights reserved</span>
       </footer>
     </div>
   );

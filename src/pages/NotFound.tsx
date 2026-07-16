@@ -1,8 +1,8 @@
 export function NotFound() {
   return (
     <div>
-      <h1>Ops! Essa página não exite!</h1>
-      <a href="/">Voltar</a>
+      <h1>Oops! This page doesn't exist!</h1>
+      <a href="/">Back</a>
     </div>
   );
 }

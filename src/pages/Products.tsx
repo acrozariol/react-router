@@ -7,22 +7,22 @@ export function Products() {
   const price = searchParams.get("price");
   return (
     <div>
-      <a href="/">Voltar</a>
+      <a href="/">Back</a>
       <h1>Products</h1>
       {category && ( // SE category existir, exiba abaixo
         <span>
-          Categoria: <strong>{category}</strong>
+          Category: <strong>{category}</strong>
           <br />
-          Preço: <strong>{price}</strong>
+          Price: <strong>{price}</strong>
         </span>
       )}
 
       <div className="cards">
-        <a href="/details/1">Produto 1</a>
-        <a href="/details/2">Produto 2</a>
-        <a href="/details/3">Produto 3</a>
-        <a href="/details/4">Produto 4</a>
-        <a href="/details/5">Produto 5</a>
+        <a href="/details/1">Product 1</a>
+        <a href="/details/2">Product 2</a>
+        <a href="/details/3">Product 3</a>
+        <a href="/details/4">Product 4</a>
+        <a href="/details/5">Product 5</a>
       </div>
     </div>
   );

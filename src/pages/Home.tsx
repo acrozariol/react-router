@@ -9,12 +9,12 @@ export function Home() {
 
   return (
     <div>
-      <h1>Página Home</h1>
+      <h1>Home page</h1>
       <nav>
-        <a href="/products">Produtos</a>
-        <a href="/products?category=tv&price=200">Categorias</a>
+        <a href="/products">Products</a>
+        <a href="/products?category=tv&price=200">Categories</a>
         <button type="button" onClick={OpenProdutsPage}>
-          Ver produtos
+          View products
         </button>
       </nav>
     </div>

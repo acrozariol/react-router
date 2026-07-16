@@ -10,11 +10,11 @@ export function Details() {
   return (
     <div>
       <button type="button" onClick={() => navigate(-1)}>
-        Voltar
+        Back
       </button>
-      <h1>Detalhes</h1>
+      <h1>Details</h1>
       <span>
-        ID do produto: <strong>{id}</strong>
+        Product ID: <strong>{id}</strong>
       </span>
     </div>
   );
